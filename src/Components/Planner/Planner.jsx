@@ -42,7 +42,7 @@ const Planner = () =>{
             {
               tasks.map((list,index) =>{
                 return(
-                  <div key={index} className=" flex border border-white w-full justify-center p-3" >
+                  <div key={index} className=" flex border border-white w-full justify-center p-3 hover:bg-purple-800 hover:text-white cursor-pointer" >
                     <div className="flex gap-4">
                     <section className="text-lg">{list.subject}</section>
                  <section className="text-lg">{list.hours} hours</section>
